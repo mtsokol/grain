@@ -18,6 +18,8 @@ dependencies = [
     'etils[epath,epy]',
     'more-itertools>=9.1.0',
     'numpy',
+    'jax',
+    'jaxtyping',
     'protobuf>=3.20.3',
 ]
 readme = "README.md"
@@ -33,9 +35,6 @@ classifiers = [
 testing = [
     'attrs',
     'dill',
-    'jax',
-    'jaxlib',
-    'jaxtyping',
     'pyarrow',
     'tensorflow-datasets',
 ]
